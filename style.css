@@ -16,9 +16,8 @@
 .score{
     width: 50%;
     height: 100%;
-    background-color: hsl(252, 100%, 67%);
+    background-color: hsl(241, 81%, 54%);;
     border-radius: 22px;
-    padding-top: 175px;
     border: 2px solid red;
 }
 .score_h3{
@@ -28,4 +27,29 @@
     font-weight: 600;
     text-align: center;
     padding-top: 40px;  
+}
+.score_number{
+    border: 2px solid red;
+    margin: auto;
+    width: 40%;
+    height: 30%;
+    background-color: hsl(252, 100%, 67%);
+    margin-top: 60px;
+    border-radius: 50%;
+}
+.score_number_p{   
+    text-align: center;
+}
+.main_score{
+    margin-top: 35px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Hanken Grotesk';
+    color: #fff;
+}
+.secondary_score{
+    margin-top: 5px;
+    color: hsl(244, 14%, 77%);
+    font-family: 'Hanken Grotesk';
+    font-weight: 900;
 }
