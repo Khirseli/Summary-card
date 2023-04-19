@@ -4,7 +4,7 @@
     height: 1080px;
     background: #ECF2FF;
     margin: 0 auto;
-    border: 2px solid red;
+    border: 2px solid #ECF2FF;
 }
 .main_div_for_two_cards{
     width: 50%;
@@ -74,7 +74,7 @@
 }
 /* definition card */
 .definition_card{
-    width: 45%;
+    width: 50%;
     height: 100%;
     border-radius: 32px;
 }
@@ -183,4 +183,22 @@ span{
     color: #303B59;
     opacity: 0.5;
 }
-
+/* continue button */
+.continue_button{
+    width: 90%;
+    background: #303B59;
+    border-radius: 128px;
+    margin-top: 41px;
+}
+h2{
+    font-family: 'Hanken Grotesk';
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 17px 0 17px 0;
+    text-align: center;
+}
+.continue_button:hover{
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    cursor: pointer;
+}
