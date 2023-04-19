@@ -3,23 +3,22 @@
     width: 100%;
     height: 1080px;
     background: #ECF2FF;
-    border: 2px solid red;
     margin: 0 auto;
+    border: 2px solid red;
 }
 .main_div_for_two_cards{
     width: 50%;
     height: 512px;
-    border: 2px solid blue;
     background-color: #fff;
     margin: 125px auto 0 auto;
     display: flex;
     justify-content: space-between;
+    border-radius: 32px;
 }
 /* score card */
 .score_card{
     width: 45%;
     height: 100%;
-    border: 2px solid red;
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
     border-radius: 32px;
 }
@@ -73,15 +72,10 @@
     width: 80%;
     margin: 20px auto 0 auto;
 }
-
-
-
-
 /* definition card */
 .definition_card{
     width: 45%;
     height: 100%;
-    border: 2px solid green;
     border-radius: 32px;
 }
 .definition_h{
@@ -92,3 +86,101 @@
     text-align: left;
     margin-top: 38px;
 }
+.definition_mini_cards{
+    height: 272px;
+    width: 90%;
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mini_cards{
+    width: 100%;
+    height: 56px;
+    border-radius: 12px;
+}
+/* reaction */
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+.reaction_mini_div{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+.score_out_of{
+    margin-right: 20px;
+}
+.reaction_p{
+    color: #FF5555
+}
+/* Memory */
+.memory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+.memory_mini_div{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+.memory_p{
+    color: #FFB21E;
+}
+/* verbal */
+.verbal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+.verbal_mini_div{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+.verbal_p{
+    color: #00BB8F;
+}
+/* visual */
+.visual{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+.visual_mini_div{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+.visual_p{
+    color: #1125D6;
+}
+
+.minidivs_p{
+    font-family: 'Hanken Grotesk';
+    font-weight: 500;
+    font-size: 18px;
+}
+.score_p{
+    font-family: 'Hanken Grotesk';
+    font-weight: 700;
+    font-size: 18px;
+}
+span{
+    font-family: 'Hanken Grotesk';
+    font-weight: 700;
+    font-size: 18px;
+    color: #303B59;
+    opacity: 0.5;
+}
+
