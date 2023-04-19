@@ -105,6 +105,10 @@
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
 }
+.reaction:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
 .reaction_mini_div{
     margin-left: 20px;
     display: flex;
@@ -124,6 +128,10 @@
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
 }
+.memory:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
 .memory_mini_div{
     margin-left: 20px;
     display: flex;
@@ -140,6 +148,10 @@
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
 }
+.verbal:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
 .verbal_mini_div{
     margin-left: 20px;
     display: flex;
@@ -155,6 +167,10 @@
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+.visual:hover{
+    background-color: #000000;
+    cursor: pointer;
 }
 .visual_mini_div{
     margin-left: 20px;
