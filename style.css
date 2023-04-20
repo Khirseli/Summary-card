@@ -307,6 +307,9 @@ h2{
         width: 90%;
         margin: 41px auto 0 auto;
     }
+    .container{
+        height: auto;
+    }
 
 
 }
