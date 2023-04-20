@@ -218,3 +218,96 @@ h2{
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
     cursor: pointer;
 }
+
+
+
+
+
+@media (max-width: 1200px){
+   .final_score{
+    width: 80%;
+    height: 200px;
+    border: 2px solid yellow;
+    margin: 35px auto 0 auto;
+    border-radius: 50%;
+   }
+}
+@media (max-width: 900px){
+    .main_div_for_two_cards{
+        width: 70%;
+    }
+}
+@media (max-width: 660px){
+    .main_div_for_two_cards{
+        width: 90%;
+    }
+}
+@media (max-width: 530px){
+    .container{
+        background: none;
+    }
+    .main_div_for_two_cards{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        /* border: 2px solid red; */
+        display: block;
+    }
+    .score_h{
+        margin: 0 auto;
+    }
+    .score_card{
+        width: 100%;
+        height: 356px;
+        border-radius: 0 0 32px 32px;
+    }
+    .score_h{
+        font-size: 18px;
+    }
+    .number{
+        font-size: 52px;
+        color: #fff;
+        text-align: center;
+        padding-top: 35px;
+    }
+    .final_score{
+        width: 30%;
+        height: 140px;
+        border: none;
+        margin: 35px auto 0 auto;
+        border-radius: 50%;
+    }
+    .explanation_p{
+        font-size: 14px;
+        line-height: 23px;
+        text-align: center;
+        width: 80%;
+        margin: 10px auto 0 auto;
+    }
+    .score_h{
+        font-size: 18px;
+        padding-top: 24px;
+    }
+
+    .definition_card{
+        width: 100%;
+        height: 100%;
+        border-radius: 32px;
+    }
+
+    .definition_mini_cards{
+        margin: 28px auto 0 auto;
+    }
+    .definition_h{
+        width: 90%;
+        font-size: 18px;
+        margin: 38px auto 0 auto;
+    }
+    .continue_button{
+        width: 90%;
+        margin: 41px auto 0 auto;
+    }
+
+
+}
+
